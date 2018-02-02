@@ -12,7 +12,7 @@ Se podrá crear varias listas para varias tiendas diferentes.
 Se podrá introducir cantidades y unidades de cada producto.
 
 ## Motivación
-La aplicación es un proyecto de la asignatura Acceso a Datos del ciclo de Formación Profesional "Desarrollo de Aplicaciones Multiplataforma"
+La aplicación es un proyecto de la asignatura Desarrollo de Interfaces del ciclo de Formación Profesional "Desarrollo de Aplicaciones Multiplataforma"
 
 ## Creado con
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDE de Java usado
