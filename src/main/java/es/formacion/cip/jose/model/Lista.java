@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 @Entity
 @Table(name = "lista")
 public class Lista {
-
+//l
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer ID;
