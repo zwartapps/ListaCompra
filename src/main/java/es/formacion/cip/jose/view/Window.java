@@ -5,8 +5,12 @@ import es.formacion.cip.jose.model.Lista;
 import org.hibernate.Session;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.ResultSet;
 import java.util.List;
 
 public class Window extends JFrame {
@@ -34,16 +38,21 @@ public class Window extends JFrame {
         bObtener.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 Session session = null;
                 try {
+
+//                    Table.addTable();
                     session = HibernateUtil.getSession();
-                    List<Lista> contactList = session.createQuery("from Lista ").list();
+                    List<Lista> listacompra = session.createQuery("from Lista ").list();
                     System.out.println("Tabla Lista: ");
-                    for (Lista r : contactList) {
+                    for (Lista r : listacompra) {
                         System.out.println("Id: " + r.getID() + " | Producto: " + r.getProducto() +
                                 " | Cantidad: " + r.getCantidad() + " | Unidad: " + r.getUnidad()
                         );
                     }
+
+
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
