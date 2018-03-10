@@ -33,6 +33,9 @@ La base de datos consta de una tabla llamada "lista" con los siguientes campos:
 ## Pruebas
 >por determinar
 
+## Wiki
+* [Pagina de Wiki](https://github.com/zwartapps/ListaCompra/wiki/Inicio)
+
 ## Licencia
 :copyright: 2018 ZwartApps
 
